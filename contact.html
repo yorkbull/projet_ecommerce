@@ -1,0 +1,59 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>contact</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+       <header>
+
+       </header>
+       <h2>Une question ?</h2>
+       <form action="">
+           <label for="name">
+                <input type="text" id="name" name="name" placeholder="Prenom" required>
+           </label>
+           <label for="last_name">
+                <input type="text" id="last_name" name="last_name" placeholder="Nom" required>
+           </label>
+           <label for="mail">
+                <input type="text" id="mail" name="mail" placeholder="Mail" required>
+           </label>
+           <label for="phone">
+                <input type="text" id="phone" name="phone" placeholder="Portable">
+           </label>
+           <label for="age">
+            <input type="text" id="age" name="age" placeholder="Age">
+       </label>
+<!-- checkbox -->
+           <label for="feminin">
+                <input type="checkbox" id="feminin" name="sexe">
+                F
+           </label>
+           <label for="masculin">
+                <input type="checkbox" id="masculin" name="sexe">
+                M
+           </label>
+<!-- message et type de message -->
+           <label for="name">
+                <select name="nom" size="1" placeholder="choisir un thème">
+                    <option value="">choisir un thème--</option>
+                    <option value="livraison">Problème de livraison</option>
+                    <option value="paiement">Problème de paiement</option>
+                    <option value="retour">Retourner un article</option>
+                    <option value="autre">Autre</option>
+                </select>
+           </label>
+           <label for="message">
+                <textarea id="message" name="message" placeholder="Message" rows="10" cols="33" required></textarea>
+           </label>
+           <label for="name">
+                <input class="validation button" type="button" value="valider">
+           </label>
+           
+       </form>
+    </body>
+    </html>

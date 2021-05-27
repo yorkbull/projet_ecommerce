@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <header>
+
+    </header>
+    <h2>Inscription</h2>
+    <form action="">
+        <label for="name">
+             <input type="text" id="name" name="name" placeholder="Prenom *" required>
+        </label>
+        <label for="last_name">
+            <input type="text" id="last_name" name="last_name" placeholder="Nom *" required>
+       </label>
+<!-- checkbox -->
+       <label for="feminin">
+            <input type="checkbox" id="feminin" name="sexe">
+            F
+       </label>
+       <label for="masculin">
+            <input type="checkbox" id="masculin" name="sexe">
+            M
+       </label>
+<!-- Données utilisateur inscription -->
+       <label for="Imail">
+            <input type="text" id="Imail" name="Imail" placeholder="Mail *" required>
+       </label>
+       <label for="phone">
+            <input type="text" id="phone" name="phone" placeholder="Portable">
+       </label>
+       <label for="jour">
+            <input type="text" id="date" name="jour" placeholder="Jour" minlength="2" maxlength="2">
+       </label>
+       <label for="mois">
+            <input type="text" id="date" name="mois" placeholder="Mois" minlength="2" maxlength="2">
+       </label>
+       <label for="année">
+            <input type="text" id="date" name="année" placeholder="Année" minlength="4" maxlength="4">
+       </label>
+       <label for="Imdp">
+            <input type="text" id="Imdp" name="Imdp" placeholder="Mot de passe *" required>
+       </label>
+       <label for="vmdp">
+            <input type="text" id="vmdp" name="vmdp" placeholder="Confirmation du mot de passe *" required>
+       </label>
+<!-- checkbox -->
+       <label for="conditions">
+            <input type="checkbox" id="conditions" name="conditions" required>
+            conditions générale d'utilisation *
+       </label>
+       <label for="newsletter">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            newsletter
+       </label>
+<!-- bouton validation -->
+       <label for="Inscription">
+            <input class="Inscription button" type="button" value="Inscription">
+       </label>
+       <h2>Connexion</h2>
+<!-- Données utilisateur inscription -->
+       <label for="Cmail">
+            <input type="text" id="Cmail" name="Cmail" placeholder="Mail" required>
+       </label>
+       <label for="Cmdp">
+            <input type="text" id="Cmdp" name="Cmdp" placeholder="Mot de passe" required>
+       </label>
+       <a href="">mot de passe oublié</a>
+<!-- bouton validation -->
+       <label for="Conection">
+            <input class="Inscription button" type="button" value="Connexion">
+       </label>
+</form>
+</body>
+</html>
