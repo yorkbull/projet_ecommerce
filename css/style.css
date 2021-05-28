@@ -98,16 +98,16 @@
     border-radius: 5px;
     padding: 10px;
   }
-  .produit a {
+  .produit button {
     display: block;
     background-color: #DB6666;
     border-radius: 5px;
     width: 220px;
     margin-top: -16px;
   }
-  .produit a img {
-    width: 5%;
-    margin-left: 100px;
+  #avis_client_produit {
+    margin-top: -20px;
+    display: none;
   }
   /* SERVICE CLIENT */
   .service_client {
@@ -120,17 +120,18 @@
     border-radius: 5px;
     padding: 10px;
   }
-  .service_client a {
+  .service_client button {
     display: block;
     background-color: #DB6666;
     border-radius: 5px;
     width: 220px;
     margin-top: -16px;
   }
-  .service_client a img {
-    width: 5%;
-    margin-left: 100px;
+  #avis_client_sav {
+    margin-top: -20px;
+    display: none;
   }
+
   /* FOOTER */
   footer {
     background-color: #473DC2;
