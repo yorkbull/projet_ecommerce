@@ -94,16 +94,16 @@
   .produit p:first-child {
     width: 200px;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: -4px;
   }
   .produit button {
-    display: block;
     background-color: #DB6666;
     border-radius: 5px;
-    width: 220px;
-    margin-top: -16px;
+    width: 224px;
+    height: 20px;
   }
   #avis_client_produit {
     margin-top: -20px;
@@ -116,16 +116,16 @@
   .service_client p:first-child {
     width: 200px;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: -4px;
   }
   .service_client button {
-    display: block;
     background-color: #DB6666;
     border-radius: 5px;
-    width: 220px;
-    margin-top: -16px;
+    width: 224px;
+    height: 20px;
   }
   #avis_client_sav {
     margin-top: -20px;
