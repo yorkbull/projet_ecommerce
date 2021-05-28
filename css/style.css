@@ -83,8 +83,9 @@
     width: 224px;
     height: 20px;
   }
-  .avis_client_livraison {
+  #avis_client_livraison {
     margin-top: -20px;
+    display: none;
   }
   /* PRODUIT */
   .produit {
