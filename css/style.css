@@ -67,31 +67,30 @@
   /* AVIS*/
   /* LIVRAISON */
   .livraison {
-    margin-left: 30%;
+    margin-left: 25%;
   }
-  .livraison p {
+  .livraison p:first-child {
     width: 200px;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: -4px;
   }
-  .livraison a {
-    display: block;
+  .livraison button {
     background-color: #DB6666;
     border-radius: 5px;
-    width: 220px;
-    margin-top: -16px;
+    width: 224px;
+    height: 20px;
   }
-  .livraison a img {
-    width: 5%;
-    margin-left: 100px;
+  .avis_client_livraison {
+    margin-top: -20px;
   }
   /* PRODUIT */
   .produit {
-    margin-left: 30%;
+    margin-left: 25%;
   }
-  .produit p {
+  .produit p:first-child {
     width: 200px;
     text-align: center;
     border: 1px solid black;
@@ -109,11 +108,11 @@
     width: 5%;
     margin-left: 100px;
   }
-  .service_client {
-    margin-left: 30%;
-  }
   /* SERVICE CLIENT */
-  .service_client p {
+  .service_client {
+    margin-left: 25%;
+  }
+  .service_client p:first-child {
     width: 200px;
     text-align: center;
     border: 1px solid black;
