@@ -64,6 +64,16 @@
     width: 100%;
     margin:2px;
   }
+  /* AVIS*/
+  .livraison {
+    margin-left: 30%;
+  }
+  .livraison p {
+    width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
   /* FOOTER */
   footer {
     background-color: #473DC2;
