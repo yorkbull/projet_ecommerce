@@ -65,15 +65,71 @@
     margin:2px;
   }
   /* AVIS*/
+  /* LIVRAISON */
   .livraison {
     margin-left: 30%;
   }
   .livraison p {
-    width: 50%;
+    width: 200px;
     text-align: center;
     border: 1px solid black;
     border-radius: 5px;
     padding: 10px;
+  }
+  .livraison a {
+    display: block;
+    background-color: #DB6666;
+    border-radius: 5px;
+    width: 220px;
+    margin-top: -16px;
+  }
+  .livraison a img {
+    width: 5%;
+    margin-left: 100px;
+  }
+  /* PRODUIT */
+  .produit {
+    margin-left: 30%;
+  }
+  .produit p {
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .produit a {
+    display: block;
+    background-color: #DB6666;
+    border-radius: 5px;
+    width: 220px;
+    margin-top: -16px;
+  }
+  .produit a img {
+    width: 5%;
+    margin-left: 100px;
+  }
+  .service_client {
+    margin-left: 30%;
+  }
+  /* SERVICE CLIENT */
+  .service_client p {
+    width: 200px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .service_client a {
+    display: block;
+    background-color: #DB6666;
+    border-radius: 5px;
+    width: 220px;
+    margin-top: -16px;
+  }
+  .service_client a img {
+    width: 5%;
+    margin-left: 100px;
   }
   /* FOOTER */
   footer {
