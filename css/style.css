@@ -143,7 +143,14 @@ body {
 
   /* FOOTER */
   footer {
+    display: flex;
+    flex-direction: column;
     background-color: #473DC2;
+    color: white;
   }
-  
+  #entreprise {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
