@@ -1,11 +1,12 @@
 /* style e_commerce */
-
+header, main, section, a {
+  border: 1px dashed red;
+}
+body {
+  margin: 0;
+}
 /* VERSION MOBILE */
-@media (max-width: 480px){
-  body {
-    margin: 0;
-    padding: 0;
-  }
+@media (max-width: 400px) {
   /* HEADER */
   header {
     position: fixed;
@@ -19,19 +20,18 @@
   ul {
     display: flex;
     justify-content: right;
-    list-style: none;
   }
   li {
     padding: 0 10px;
     border: solid black;
     border-radius: 30px;
+    list-style: none;
   }
-}
+
   h1 {
     font-family: Roboto, sans-serif;
-    font-size: 64px;
     color: #DB6666;
-    text-align: center;
+
   }
   a {
     text-decoration: none;
@@ -66,66 +66,75 @@
   }
   /* AVIS*/
   /* LIVRAISON */
-  .livraison {
-    margin-left: 25%;
+  #livraison {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
   }
-  .livraison p:first-child {
+  #livraison p:first-child {
     width: 200px;
+    height: 50px;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: -4px;
   }
-  .livraison button {
+  #livraison button {
     background-color: #DB6666;
     border-radius: 5px;
     width: 224px;
-    height: 20px;
+    height: 30px;
   }
   #avis_client_livraison {
     margin-top: -20px;
     display: none;
   }
   /* PRODUIT */
-  .produit {
-    margin-left: 25%;
+  #produit {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
   }
-  .produit p:first-child {
+  #produit p:first-child {
     width: 200px;
+    height: 50px;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: -4px;
   }
-  .produit button {
+  #produit button {
     background-color: #DB6666;
     border-radius: 5px;
     width: 224px;
-    height: 20px;
+    height: 30px;
   }
   #avis_client_produit {
     margin-top: -20px;
     display: none;
   }
   /* SERVICE CLIENT */
-  .service_client {
-    margin-left: 25%;
+  #service_client {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
   }
-  .service_client p:first-child {
+  #service_client p:first-child {
     width: 200px;
+    height: 50px;
     text-align: center;
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
     margin-bottom: -4px;
   }
-  .service_client button {
+  #service_client button {
     background-color: #DB6666;
     border-radius: 5px;
     width: 224px;
-    height: 20px;
+    height: 30px;
   }
   #avis_client_sav {
     margin-top: -20px;
@@ -136,4 +145,5 @@
   footer {
     background-color: #473DC2;
   }
+  
 }
