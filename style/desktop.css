@@ -1,0 +1,42 @@
+
+a{
+  text-decoration: none;
+}
+/* contact*/
+.page_contact{
+  padding: 50px;
+}
+.formulaire_contact{
+  display:flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+
+}
+.formulaire_contact .input_elements{
+  display:flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-box-direction: column;
+}
+.bouton{
+  background-color: #DB6666;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 10px;
+  width: 150px;
+  height: 40px;
+}
+.bouton:after{
+  content: '';
+  background-color:white;
+  border: #473DC2;
+  width: 50px;
+  height: 30px;
+}
+#name{
+  padding: 3px;
+  margin: 20px;
+}
+
+  

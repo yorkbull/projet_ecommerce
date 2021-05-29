@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>contact</title>
+    <link rel="stylesheet" href="/style/desktop.css" />
+  </head>
+  <body class="page_contact">
+    <header>
+      <a href="index.html"><h1>2SHOES</h1></a>
+      <nav>
+        <ul>
+            <li><a href="articles.html">Boutique</a></li>
+            <li><a href="panier_vide.html">panier</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Une question ?</h2>
+    <form class="formulaire_contact">
+      <div class="input_elements">
+        <input type="text" id="name" name="name" placeholder="Prenom" required/>
+        <input type="text" id="mail" name="mail" placeholder="Mail" required />
+        <input type="text" id="phone" name="phone" placeholder="Portable" />
+        <div >
+          <!-- checkbox -->
+          <div>
+            <label>F</label>
+            <input type="checkbox" id="feminin" name="sexe" />
+          </div>
+          <div>
+            <label>M</label>
+            <input type="checkbox" id="masculin" name="sexe" />
+          </div>
+        </div>
+        <input type="text" id="age" name="age" placeholder="Age" />
+      </div>
+      <div class="input_elements">
+        <input type="text" id="name" name="last_name" placeholder="Nom" required/>
+      </div>
+      <div class="input_elements">
+        <select name="nom" size="1" placeholder="choisir un thème">
+          <option value="">choisir un thème--</option>
+          <option value="livraison">Problème de livraison</option>
+          <option value="paiement">Problème de paiement</option>
+          <option value="retour">Retourner un article</option>
+          <option value="autre">Autre</option>
+        </select>
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Message"
+          rows="10"
+          cols="33"
+          required
+        ></textarea>
+      </div>
+    </form>
+    <!-- message et type de message -->
+
+    <input class="bouton" type="submit" value="valider" />
+  </body>
+</html>

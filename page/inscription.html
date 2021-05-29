@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="/style/desktop.css">
+</head>
+<body>
+    <header>
+       <a href="index.html"><h1>2SHOES</h1></a>
+       <ul>
+         <li><a href="articles.html">Boutique</a></li>
+         <li><a href="panier_vide.html">panier</a></li>
+       </ul>
+    </header>
+    <h2>Inscription</h2>
+            <input type="text" id="name" name="name" placeholder="Prenom *" required>
+            <input type="text" id="last_name" name="last_name" placeholder="Nom *" required>
+<!-- checkbox -->
+            <input type="checkbox" id="feminin" name="sexe">
+            F
+            <input type="checkbox" id="masculin" name="sexe">
+            M
+<!-- Données utilisateur inscription -->
+            <input type="text" id="Imail" name="Imail" placeholder="Mail *" required>
+            <input type="text" id="phone" name="phone" placeholder="Portable">
+            <input type="text" id="date" name="jour" placeholder="Jour" minlength="2" maxlength="2">
+            <input type="text" id="date" name="mois" placeholder="Mois" minlength="2" maxlength="2">
+            <input type="text" id="date" name="année" placeholder="Année" minlength="4" maxlength="4">
+            <input type="text" id="Imdp" name="Imdp" placeholder="Mot de passe *" required>
+            <input type="text" id="vmdp" name="vmdp" placeholder="Confirmation du mot de passe *" required>
+<!-- checkbox -->
+            <input type="checkbox" id="conditions" name="conditions" required>
+            conditions générale d'utilisation *
+            <input type="checkbox" id="newsletter" name="newsletter">
+            newsletter
+<!-- bouton validation -->
+            <input class="Bouton" type="button" value="Inscription">
+       <h2>Connexion</h2>
+<!-- Données utilisateur inscription -->
+            <input type="text" id="Cmail" name="Cmail" placeholder="Mail" required>
+            <input type="text" id="Cmdp" name="Cmdp" placeholder="Mot de passe" required>
+       <a href="">mot de passe oublié</a>
+<!-- bouton validation -->
+            <input class="bouton" type="button" value="Connexion">
+<!--Offres promotionelles-->
+       <p>Connectez vous pour profiter des <a href="index.html">offres promotionnelles</a></p>
+</body>
+</html>
