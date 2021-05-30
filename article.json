@@ -1,0 +1,85 @@
+[{
+    "id": "1",
+    "name": "Maillot Kawhi Leonard",
+    "categories" : "maillot",
+    "img_src": "img/t_shirt_black.png",
+    "unit_price": "115",
+    "available": true,
+    "quantity": 10,
+    "bag_quantity": 0
+},
+{
+    "id": "2",
+    "name": "Maillot Kevin Durant",
+    "categories" : "maillot",
+    "img_src": "img/maillot_leonard.png",
+    "unit_price": "115",
+    "available" : true,
+    "quantity": 10,
+    "bag_quantity": 0
+},
+{
+    "id": "3",
+    "name": "Produit3",
+    "categories" : "maillot",
+    "img_src": "img/product3.jpg",
+    "unit_price": "15.50 ",
+    "available": true,
+    "quantity": 2,
+    "bag_quantity": 0
+},
+{
+    "id": "4",
+    "name": "Produit4",
+    "categories" : "maillot",
+    "img_src": "img/product4.jpg",
+    "unit_price": "19.99 ",
+    "available": false,
+    "quantity": 0,
+    "bag_quantity": 0
+},
+{
+    "id": "5",
+    "name": "Produit5",
+    "img_src": "img/product5.jpg",
+    "unit_price": "19.99 ",
+    "available": true,
+    "quantity": 2,
+    "bag_quantity": 0
+},
+{
+    "id": "6",
+    "name": "Produit6",
+    "img_src": "img/product6.jpg",
+    "unit_price": "19.99 ",
+    "available": true ,
+    "quantity": 2,
+    "bag_quantity": 0
+},
+{
+    "id": "7",
+    "name": "Produit7",
+    "img_src": "img/product7.jpg",
+    "unit_price": "19.99 ",
+    "available": true ,
+    "quantity": 2,
+    "bag_quantity": 0
+},
+{
+    "id": "8",
+    "name": "Produit8",
+    "img_src": "img/product8.jpg",
+    "unit_price": "19.99 ",
+    "available": true ,
+    "quantity": 2,
+    "bag_quantity": 0
+},
+{
+    "id": "9",
+    "name": "Produit9",
+    "img_src": "img/product9.jpg",
+    "unit_price": "19.99 ",
+    "available": true ,
+    "quantity": 2,
+    "bag_quantity": 0
+}]
