@@ -1,4 +1,6 @@
-[{
+{
+  "article":[
+    {
     "id": "1",
     "name": "Maillot Kawhi Leonard",
     "categories" : "maillot",
@@ -117,4 +119,6 @@
     "available": true ,
     "quantity": 10,
     "bag_quantity": 0
-}]
+}
+]
+}

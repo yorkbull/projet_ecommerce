@@ -1,7 +1,7 @@
 /* style e_commerce */
-header, main, section, a ,div, img, p {
+/*header, main, section, a ,div, img, p {
   border: 1px dashed red;
-}
+}*/
 body {
   margin: 0;
 }
@@ -42,14 +42,14 @@ body {
     margin: 0 20px;
   }
   /* BOUTIQUE */
-  #boutique {
+  #shop {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
   }
-  #boutique img {
+  #shop img {
     width: 50%;
     border: solid black;
     margin-top: 20px;
@@ -190,6 +190,14 @@ body {
   }
   .BoutonPVide {
     margin: 0 30%;
+  }
+  #boutique {
+    display: flex;
+    color: black;
+  }
+  /* PANIER VIDE */
+  #head_block {
+    padding: 20px 0;
   }
 
 
