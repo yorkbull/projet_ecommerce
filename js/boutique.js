@@ -1,28 +1,27 @@
 // IMPORT DE JSON //
 
-var section = document.getElementById("boutique");
+const section = document.querySelector('article');
 
-var requestURL = 'article.json';
+const requestURL = 'article.json';
 
-var request = new XMLHttpRequest();
+const request = new XMLHttpRequest();
 
 request.open('GET', requestURL);
 
 request.responseType = 'json';
-
 request.send();
 
-request.onload = function() {
-  var boutique = request.response;
-  showArticle(boutique);
+function showArticle(jsonObj) {
+  var article = jsonObj["article"];
+  console.log(article)
+  article.map((element)=>{
+    let text = document.createElement('p')
+    text.innerHTML = element.unit_price
+    document.querySelector('article').appendChild(text)
+ })
 }
 
-function showArticle(jsonObj) {
-  var article = jsonObj['article'];
-
-  for (var i = 0 ; i < article.length; i++){
-    var myPrix = document.createElement('p')
-
-    myPrix.textContent = article[i].unit_price;
-  }
+request.onload = function() {
+    var boutique = request.response;
+    showArticle(boutique);
 }
