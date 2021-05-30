@@ -2,19 +2,51 @@
 a{
   text-decoration: none;
 }
+h1{
+  font-size: 64px;
+}
+h2{
+  font-size: 32px;
+}
+input{
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 60%; 
+}
+.radio_content{
+  display: flex;
+  display: -webkit-flex;
+}
+.radio_content .radio_gender{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5%;
+}
+.check_content{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+.check_content .check_conditions{
+  display: flex;
+  display: -webkit-flex;
+}
+.check_content .check_conditions input{
+  width: 12px;
+  height: 12px;
+}
 /* contact*/
 body{
   margin: unset;
   font-family: 'roboto', sans-serif !important;
+  font-size: 14px;
 }
 main{
-  height: 50vh;
 }
 main, header, footer{
   padding: 50px
-}
-h1{
-  font-size: 64px;
 }
 .header_content{
   display: flex;
@@ -74,10 +106,10 @@ h1{
   top: -10px;
   z-index: -1;
 }
+/*--page contact--*/
 .formulaire_contact{
   display:flex;
   display: -webkit-flex;
-  justify-content: space-between;
 }
 .formulaire_contact .input_elements{
   display:flex;
@@ -85,6 +117,41 @@ h1{
   flex-direction: column;
   -webkit-box-direction: column;
   width: 100%;
+  justify-content: space-between;
+}
+.formulaire_contact .input_elements .name_content{
+  display: flex;
+  display: -webkit-flex;
+  width: 60%;
+}
+.formulaire_contact .input_elements .name_content input{
+  width: unset !important;
+  margin-right: 3%;
+}
+.formulaire_contact .input_elements input, .formulaire_contact .input_elements select{
+  padding: 10px;
+  margin-bottom: 40px;
+  width: 60%;
+}
+.formulaire_contact .input_elements textarea{
+  height: 100%;
+}
+.formulaire_contact .radio_content{
+  display: flex;
+  display: -webkit-flex;
+}
+.formulaire_contact .radio_content .radio_gender{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 5%;
+}
+.bouton_content{
+  position: relative;
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
 }
 .bouton{
   background-color: #DB6666;
@@ -92,15 +159,176 @@ h1{
   border-radius: 3px;
   border: none;
   padding: 10px;
+  width: 100% !important;
+  height: 100%;
+  appearance: auto;
+}
+.bouton_content:after{
+  content: "";
+  border: 1px solid #473DC2;
   width: 150px;
   height: 40px;
+  position: absolute;
+  z-index: -1;
+  left: -5px;
+  top: -5px;
+  border-radius: 3px;
+}
+/*--page inscription/Connexion--*/
+.formulaire_inscription{
+  display: flex;
+  display: -webkit-flex;
+}
+  /*--inscription--*/
+.formulaire_inscription .inscription_content{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-box-direction: column;
+  width: 100%;
+  justify-content: space-between;
+}
+.formulaire_inscription .inscription_content .name_inscription{
+  display: flex;
+  display: -webkit-flex;
+  width: 60%;
+}
+.formulaire_inscription .inscription_content .name_inscription input{
+  width: unset !important;
+  margin-right: 3%;
+}
+.formulaire_inscription .inscription_content .birth_content{
+  display: flex;
+  display: -webkit-flex;
+  width: 60%;
+}
+.formulaire_inscription .inscription_content .birth_content input{
+  width: 60px !important;
+  margin-right: 3%;
+}
+  /*--connexion--*/
+.formulaire_inscription .connexion_content{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-box-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+.formulaire_inscription .connexion_content input{
+  margin-bottom: 10px;
+}
+.formulaire_inscription .connexion_content .mdp_content{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+}
+.formulaire_inscription .connexion_content .text_promo{
+  display: flex;
+  display: -webkit-flex;
+  font-size: 52px;
+  font-weight: bold;
+}
+.formulaire_inscription .connexion_content .text_promo .link_promo{
+  color: #DB6666;
+}
+/*--page panier vide--*/
+.page_panier {
+  height: 44vh;
+}
+.page_panier .panier_content{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.page_panier .panier_content .bouton_content{
   position: relative;
+  margin-top: 10px;
+  display: flex;
+  white-space: nowrap;
+  width: 150px;
 }
-.bouton:after{
-  content: ".";
+.page_panier .panier_content .bouton_content::after{
+  width: 100%;
+  padding: 10px 9px;
 }
-#name{
+.page_panier .panier_content .bouton_content .bouton{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+/*--page paiement--*/
+.etape_content{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.etape_content .principale{
+  font-size: 46px;
+  background-color: #DB6666;
+  border-radius: 3px;
+  padding: 15px;
+}
+.etape_content .secondaire{
+  font-size: 40px;
+  background-color: #DDBBBB;
+  border-radius: 3px;
   padding: 10px;
+}
+.page_paiement .cb_content{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.page_paiement .cb_content .paypal_content{
+  align-items: center;
+}
+.page_paiement .cb_content input{
+  width: unset;
+}
+.page_paiement .paypal_content, .page_paiement .visa_content, .page_paiement .american_content{
+  margin-right: 10px;
+}
+.page_paiement .paypal_content .paypal_img{
+  width: 80px;
+  height: 80px;
+}
+.page_paiement .card_number{
+  display: flex;
+  display: -webkit-flex;
+  width:  50%;
+}
+.page_paiement .expiration{
+  display: flex;
+  display: -webkit-flex;
+  width: 10% !important;
+}
+.page_paiement .cvv{
+  display: flex;
+  display: -webkit-flex;
+  width: 10% !important;
+}
+.page_paiement .cvv_content{
+  display: flex;
+  display: -webkit-flex;
+}
+/*--page boutique--*/
+.boutique_content{
+  width: 100%;
+}
+.picture{
+  display: flex;
+  display: -webkit-flex;
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 footer{
   background-color: #473DC2;

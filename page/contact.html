@@ -11,38 +11,38 @@
     <header class="header_content">
       <div class="logo_content"><div class="logo_site"></div></div>
       <div class="title_content">
-        <a href="index.html"><h1>2SHOES</h1></a>
+        <a href="/page/index.html"><h1>2SHOES</h1></a>
       </div>
       <nav>
         <ul>
-            <li><a href="index.html">Acceuil</a></li>
-            <li><a href="articles.html">Boutique</a></li>
-            <li><a href="panier_vide.html">panier</a></li>
+            <li><a href="/page/index.html">Accueil</a></li>
+            <li><a href="/page/articles.html">Boutique</a></li>
+            <li><a href="/page/panier_vide.html">panier</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h2>Une question ?</h2>
+      <h2 class="title_contact">Une question ?</h2>
       <form class="formulaire_contact">
         <div class="input_elements">
-          <input type="text" id="name" name="name" placeholder="Prenom" required/>
+          <div class="name_content">
+            <input type="text" id="name" name="name" placeholder="Prenom" required/>
+            <input type="text" id="name" name="last_name" placeholder="Nom" required/>
+          </div>
           <input type="text" id="mail" name="mail" placeholder="Mail" required />
           <input type="text" id="phone" name="phone" placeholder="Portable" />
-          <div >
+          <div class="radio_content">
             <!-- checkbox -->
-            <div>
+            <div class="radio_gender">
               <label>F</label>
-              <input type="checkbox" id="feminin" name="sexe" />
+              <input type="radio" id="feminin" name="sexe" />
             </div>
-            <div>
+            <div class="radio_gender">
               <label>M</label>
-              <input type="checkbox" id="masculin" name="sexe" />
+              <input type="radio" id="masculin" name="sexe" />
             </div>
           </div>
           <input type="text" id="age" name="age" placeholder="Age" />
-        </div>
-        <div class="input_elements">
-          <input type="text" id="name" name="last_name" placeholder="Nom" required/>
         </div>
         <div class="input_elements">
           <select name="nom" size="1" placeholder="choisir un thème">
@@ -58,13 +58,15 @@
             placeholder="Message"
             rows="10"
             cols="33"
+            style="resize: none;"
             required
           ></textarea>
+          <div class="bouton_content">
+            <input class="bouton" type="submit" value="valider" />
+          </div>
         </div>
       </form>
       <!-- message et type de message -->
-
-      <input class="bouton" type="submit" value="valider" />
     </main>
     <footer>
       <div class="link_footer">
