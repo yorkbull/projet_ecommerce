@@ -150,6 +150,8 @@ main, header, footer{
 .bouton_content{
   position: relative;
   margin-top: 40px;
+  width: 150px;
+  height: 40px;
 }
 .bouton{
   background-color: #DB6666;
@@ -157,9 +159,9 @@ main, header, footer{
   border-radius: 3px;
   border: none;
   padding: 10px;
-  width: 150px !important;
-  height: 40px;
-  position: relative;
+  width: 100% !important;
+  height: 100%;
+  appearance: auto;
 }
 .bouton_content:after{
   content: "";
@@ -230,6 +232,67 @@ main, header, footer{
 }
 .formulaire_inscription .connexion_content .text_promo .link_promo{
   color: #DB6666;
+}
+/*--page panier vide--*/
+.page_panier {
+  height: 44vh;
+}
+.page_panier .panier_content{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.page_panier .panier_content .bouton_content{
+  position: relative;
+  margin-top: 10px;
+  display: flex;
+  white-space: nowrap;
+  width: 150px;
+}
+.page_panier .panier_content .bouton_content::after{
+  width: 100%;
+  padding: 10px 9px;
+}
+.page_panier .panier_content .bouton_content .bouton{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+}
+/*--page paiement--*/
+.etape_content{
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.etape_content .principale{
+  font-size: 46px;
+  background-color: #DB6666;
+  border-radius: 3px;
+}
+.etape_content .secondaire{
+  font-size: 40px;
+  background-color: #DDBBBB;
+  border-radius: 3px;
+}
+.page_paiement .cb_content{
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+}
+.page_paiement .cb_content input{
+  width: unset;
+}
+.page_paiement .paypal_content, .page_paiement .visa_content, .page_paiement .american_content{
+  margin-right: 10px;
+}
+.page_paiement .card_number{
+  display: flex;
+  display: -webkit-flex;
 }
 footer{
   background-color: #473DC2;
