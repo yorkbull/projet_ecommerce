@@ -21,67 +21,102 @@
                      </ul>
               </nav>
     </header>
-    <h2>Inscription</h2>
-            <input type="text" id="name" name="name" placeholder="Prenom *" required>
-            <input type="text" id="last_name" name="last_name" placeholder="Nom *" required>
-<!-- checkbox -->
-            <input type="checkbox" id="feminin" name="sexe">
-            F
-            <input type="checkbox" id="masculin" name="sexe">
-            M
-<!-- Données utilisateur inscription -->
-            <input type="text" id="Imail" name="Imail" placeholder="Mail *" required>
-            <input type="text" id="phone" name="phone" placeholder="Portable">
-            <input type="text" id="date" name="jour" placeholder="Jour" minlength="2" maxlength="2">
-            <input type="text" id="date" name="mois" placeholder="Mois" minlength="2" maxlength="2">
-            <input type="text" id="date" name="année" placeholder="Année" minlength="4" maxlength="4">
-            <input type="text" id="Imdp" name="Imdp" placeholder="Mot de passe *" required>
-            <input type="text" id="vmdp" name="vmdp" placeholder="Confirmation du mot de passe *" required>
-<!-- checkbox -->
-            <input type="checkbox" id="conditions" name="conditions" required>
-            conditions générale d'utilisation *
-            <input type="checkbox" id="newsletter" name="newsletter">
-            newsletter
-<!-- bouton validation -->
-            <input class="Bouton" type="button" value="Inscription">
-       <h2>Connexion</h2>
-<!-- Données utilisateur inscription -->
+    <main>
+      <form class="formulaire_inscription">
+        <div class="inscription_content">
+          <h2 class="title_inscription">Inscription</h2>
+            <div class="name_inscription">
+              <input type="text" id="name" name="name" placeholder="Prenom *" required>
+              <input type="text" id="last_name" name="last_name" placeholder="Nom *" required>
+            </div>
+      <!-- Données utilisateur inscription -->
+              <input type="text" id="Imail" name="Imail" placeholder="Mail *" required>
+              <input type="text" id="phone" name="phone" placeholder="Portable">
+      <!-- radio genre -->
+              <div class="radio_content">
+                <div class="radio_gender">
+                  <label>F</label>
+                  <input type="radio" id="feminin" name="sexe">
+                </div>
+                <div class="radio_gender">
+                  <label>M</label>
+                  <input type="radio" id="masculin" name="sexe">
+                </div>
+              </div>
+              <div class="birth_content">
+                <input type="text" id="date" name="jour" placeholder="Jour" minlength="2" maxlength="2">
+                <input type="text" id="date" name="mois" placeholder="Mois" minlength="2" maxlength="2">
+                <input type="text" id="date" name="année" placeholder="Année" minlength="4" maxlength="4">
+              </div>
+              <input type="text" id="Imdp" name="Imdp" placeholder="Mot de passe *" required>
+              <input type="text" id="vmdp" name="vmdp" placeholder="Confirmation du mot de passe *" required>
+      <!-- checkbox -->
+              <div class="check_content">
+                <div class="check_conditions">
+                  <input type="checkbox" id="conditions" name="conditions" required>
+                  conditions générale d'utilisation *
+                </div>
+                <div class="check_conditions">
+                  <input type="checkbox" id="newsletter" name="newsletter">
+                  newsletter
+                </div>
+              </div>
+      <!-- bouton validation -->
+              <div class="bouton_content">
+                <input class="bouton" type="button" value="Inscription">
+              </div>
+        </div>
+        <hr class="separation">
+          <!-- </form> -->
+          <!-- <form class="formulaire_contact"> -->
+        <div class="connexion_content">
+          <h2 class="title_inscription">Connexion</h2>
+      <!-- Données utilisateur inscription -->
             <input type="text" id="Cmail" name="Cmail" placeholder="Mail" required>
-            <input type="text" id="Cmdp" name="Cmdp" placeholder="Mot de passe" required>
-       <a href="">mot de passe oublié</a>
-<!-- bouton validation -->
-            <input class="bouton" type="button" value="Connexion">
-<!--Offres promotionelles-->
-       <p>Connectez vous pour profiter des <a href="index.html">offres promotionnelles</a></p>
-       <footer>
-              <div class="link_footer">
-                <span class="entreprise">l'entreprise</span>
-                <a href="#">Qui sommes-nous ?</a>
-                <a href="#">Charte de confidentialité et cookies</a>
-                <a href="#">Conditions Générales de vente</a>
-              </div>
-              <div class="link_contact">
-                <a href="contact.html">Contact</a>
-                <a href="#">FAQ</a>
-                <a href="#">A propos</a>
-              </div>
-              <div class="logo_marque">
-                <img src="/img/logo_nike.png" alt="logo nike">
-                <img src="/img/logo_adidas.png" alt="logo adidas">
-                <img src="/img/logo_puma.png" alt="logo puma">
-              </div>
-              <div class="address">
-                <span class="shoes">2SHOES</span>
-                <p>27 bis rue du progrès</p>
-                <p>93100 Montreuil</p>
-                <p>Ouvert du lundi au samedi</p>
-                <p>10:00 - 19:30</p>
-              </div>
-              <div class="copyright_content">
-                <img src="/img/nba_logo.png" alt="logo nba">
-                <p>© copyright</p>
-                <p>all rights reserved</p>
-              </div>
-            </footer>
+            <div class="mdp_content">
+              <input type="text" id="Cmdp" name="Cmdp" placeholder="Mot de passe" required>
+              <a href="">mot de passe oublié</a>
+            </div>
+      <!-- bouton validation -->
+            <div class="bouton_content">
+              <input class="bouton" type="button" value="Connexion">
+            </div>
+      <!--Offres promotionelles-->
+            <div class="text_promo">
+              <p>Connectez vous pour profiter des <a href="index.html" class="link_promo">offres promotionnelles</a></p>
+            </div>
+        </div>
+      </form>
+      </main>
+      <footer>
+        <div class="link_footer">
+          <span class="entreprise">l'entreprise</span>
+          <a href="#">Qui sommes-nous ?</a>
+          <a href="#">Charte de confidentialité et cookies</a>
+          <a href="#">Conditions Générales de vente</a>
+        </div>
+        <div class="link_contact">
+          <a href="contact.html">Contact</a>
+          <a href="#">FAQ</a>
+          <a href="#">A propos</a>
+        </div>
+        <div class="logo_marque">
+          <img src="/img/logo_nike.png" alt="logo nike">
+          <img src="/img/logo_adidas.png" alt="logo adidas">
+          <img src="/img/logo_puma.png" alt="logo puma">
+        </div>
+        <div class="address">
+          <span class="shoes">2SHOES</span>
+          <p>27 bis rue du progrès</p>
+          <p>93100 Montreuil</p>
+          <p>Ouvert du lundi au samedi</p>
+          <p>10:00 - 19:30</p>
+        </div>
+        <div class="copyright_content">
+          <img src="/img/nba_logo.png" alt="logo nba">
+          <p>© copyright</p>
+          <p>all rights reserved</p>
+        </div>
+      </footer>
 </body>
 </html>
