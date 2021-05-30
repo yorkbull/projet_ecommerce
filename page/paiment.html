@@ -31,15 +31,15 @@
               <div class="cb_content">
                 <div class="paypal_content">
                   <input type="radio" name="CB">
-                    <label for="">PAYPAL</label>
+                    <img class="paypal_img" src="/img/paypal.png" alt="logo paypal">
                 </div>
                 <div class="visa_content">
                   <input type="radio" name="CB">
-                    <label for="">VISA</label>
+                    <img src="/img/visa.png" alt="logo visa">
                 </div>
                 <div class="american_content">
                   <input type="radio" name="CB">
-                    <label for="">AMERICANEXPRESS</label>
+                    <img src="/img/american.png" alt="logo american express">
                 </div>
               </div>
               <!-- Numéro CB -->
@@ -50,11 +50,14 @@
                 <input type="text" class="NumeroCB4" placeholder="XXXX">
               </div>
               <!-- Expiration CB -->
-              <input type="text" class="Expiration" placeholder="Expiration">
+              <input type="text" class="expiration" placeholder="Expiration">
               <!-- CVV -->
-              <input type="text" class="CVV" placeholder="CVV"> ?
+              <div class="cvv_content">
+                <input type="text" class="cvv" placeholder="CVV">
+                <label style="padding: 10px;">?</label>
+              </div>
               <!-- Bouton valider -->
-              <div>
+              <div class="bouton_content">
                 <input type="button" class="bouton" value="Valider">
               </div>
             </form>

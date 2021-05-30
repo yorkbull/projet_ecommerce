@@ -273,16 +273,22 @@ main, header, footer{
   font-size: 46px;
   background-color: #DB6666;
   border-radius: 3px;
+  padding: 15px;
 }
 .etape_content .secondaire{
   font-size: 40px;
   background-color: #DDBBBB;
   border-radius: 3px;
+  padding: 10px;
 }
 .page_paiement .cb_content{
   display: -webkit-flex;
   display: flex;
   flex-direction: row;
+  align-items: center;
+}
+.page_paiement .cb_content .paypal_content{
+  align-items: center;
 }
 .page_paiement .cb_content input{
   width: unset;
@@ -290,7 +296,26 @@ main, header, footer{
 .page_paiement .paypal_content, .page_paiement .visa_content, .page_paiement .american_content{
   margin-right: 10px;
 }
+.page_paiement .paypal_content .paypal_img{
+  width: 80px;
+  height: 80px;
+}
 .page_paiement .card_number{
+  display: flex;
+  display: -webkit-flex;
+  width:  50%;
+}
+.page_paiement .expiration{
+  display: flex;
+  display: -webkit-flex;
+  width: 10% !important;
+}
+.page_paiement .cvv{
+  display: flex;
+  display: -webkit-flex;
+  width: 10% !important;
+}
+.page_paiement .cvv_content{
   display: flex;
   display: -webkit-flex;
 }
