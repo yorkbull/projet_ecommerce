@@ -1,5 +1,5 @@
 /* style e_commerce */
-header, main, section, a {
+header, main, section, a ,div, img, p {
   border: 1px dashed red;
 }
 body {
@@ -147,10 +147,36 @@ body {
     flex-direction: column;
     background-color: #473DC2;
     color: white;
+    margin-top: 30px;
   }
   #entreprise {
     display: flex;
     flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+  }
+  #entreprise a {
+    color: white;
+    text-decoration: none;
+  }
+  #entreprise img {
+    width: 50%;
+    margin: 20px auto;
+  }
+  #lien {
+    text-align: center;
+  }
+  #lien a {
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+  }
+  #logo {
+    display: flex;
+  }
+  #logo img {
+    width: 10%;
+    margin: 10px 30px;
   }
 
 }
