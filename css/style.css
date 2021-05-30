@@ -7,6 +7,7 @@ body {
 }
 /* VERSION MOBILE */
 @media (max-width: 400px) {
+  /* INDEX.HTML */
   /* HEADER */
   header {
     position: fixed;
@@ -178,5 +179,19 @@ body {
     width: 10%;
     margin: 10px 30px;
   }
+
+  /* ARTICLES.HTML */
+  #head_block {
+    margin:50px 0;
+  }
+  h2 {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .BoutonPVide {
+    margin: 0 30%;
+  }
+
+
 
 }
