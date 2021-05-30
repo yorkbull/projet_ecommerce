@@ -71,6 +71,7 @@
 {
     "id": "8",
     "name": "LeBron 16 1 Thru 5",
+    "categories" : "shoes",
     "img_src": "img/moche.png",
     "unit_price": "500",
     "available": true ,
@@ -79,10 +80,41 @@
 },
 {
     "id": "9",
-    "name": "Produit9",
-    "img_src": "img/product9.jpg",
+    "name": "Bandeau noir NBA",
+    "categories" : "autres",
+    "img_src": "img/headband_black.png",
     "unit_price": "19.99 ",
     "available": true ,
-    "quantity": 2,
+    "quantity": 10,
+    "bag_quantity": 0
+},
+{
+    "id": "10",
+    "name": "Manchon de bras noir nike",
+    "categories" : "autres",
+    "img_src": "img/manchon.png",
+    "unit_price": "30",
+    "available": true ,
+    "quantity": 10,
+    "bag_quantity": 0
+},
+{
+    "id": "11",
+    "name": "Chaussette blanche Nike",
+    "categories" : "autres",
+    "img_src": "img/chausette.png",
+    "unit_price": "19.99 ",
+    "available": true ,
+    "quantity": 10,
+    "bag_quantity": 0
+},
+{
+    "id": "12",
+    "name": "Panier de basket Officiel NBA avec son ballon SPALDING",
+    "categories" : "autres",
+    "img_src": "img/panier.png",
+    "unit_price": "500 ",
+    "available": true ,
+    "quantity": 10,
     "bag_quantity": 0
 }]
