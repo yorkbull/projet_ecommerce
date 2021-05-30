@@ -1,11 +1,13 @@
 /* style e_commerce */
-
+/*header, main, section, a ,div, img, p {
+  border: 1px dashed red;
+}*/
+body {
+  margin: 0;
+}
 /* VERSION MOBILE */
-@media (max-width: 480px){
-  body {
-    margin: 0;
-    padding: 0;
-  }
+@media (max-width: 400px) {
+  /* INDEX.HTML */
   /* HEADER */
   header {
     position: fixed;
@@ -19,19 +21,18 @@
   ul {
     display: flex;
     justify-content: right;
-    list-style: none;
   }
   li {
     padding: 0 10px;
     border: solid black;
     border-radius: 30px;
+    list-style: none;
   }
-}
+
   h1 {
     font-family: Roboto, sans-serif;
-    font-size: 64px;
     color: #DB6666;
-    text-align: center;
+
   }
   a {
     text-decoration: none;
@@ -41,14 +42,14 @@
     margin: 0 20px;
   }
   /* BOUTIQUE */
-  #boutique {
+  #shop {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
   }
-  #boutique img {
+  #shop img {
     width: 50%;
     border: solid black;
     margin-top: 20px;
@@ -65,18 +66,145 @@
     margin:2px;
   }
   /* AVIS*/
-  .livraison {
-    margin-left: 30%;
+  /* LIVRAISON */
+  #livraison {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
   }
-  .livraison p {
-    width: 50%;
+  #livraison p:first-child {
+    width: 200px;
+    height: 50px;
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: -4px;
   }
-  /* FOOTER */
-  footer {
-    background-color: #473DC2;
+  #livraison button {
+    background-color: #DB6666;
+    border-radius: 5px;
+    width: 224px;
+    height: 30px;
+  }
+  #avis_client_livraison {
+    margin-top: -20px;
+    display: none;
+  }
+  /* PRODUIT */
+  #produit {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+  }
+  #produit p:first-child {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: -4px;
+  }
+  #produit button {
+    background-color: #DB6666;
+    border-radius: 5px;
+    width: 224px;
+    height: 30px;
+  }
+  #avis_client_produit {
+    margin-top: -20px;
+    display: none;
+  }
+  /* SERVICE CLIENT */
+  #service_client {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+  }
+  #service_client p:first-child {
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: -4px;
+  }
+  #service_client button {
+    background-color: #DB6666;
+    border-radius: 5px;
+    width: 224px;
+    height: 30px;
+  }
+  #avis_client_sav {
+    margin-top: -20px;
+    display: none;
   }
 
+  /* FOOTER */
+  footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #473DC2;
+    color: white;
+    margin-top: 30px;
+  }
+  #entreprise {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+  }
+  #entreprise a {
+    color: white;
+    text-decoration: none;
+  }
+  #entreprise img {
+    width: 50%;
+    margin: 20px auto;
+  }
+  #lien {
+    text-align: center;
+  }
+  #lien a {
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+  }
+  #logo {
+    display: flex;
+  }
+  #logo img {
+    width: 10%;
+    margin: 10px 30px;
+  }
+
+  /* ARTICLES.HTML */
+  #head_block {
+    margin:50px 0;
+  }
+  h2 {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .BoutonPVide {
+    margin: 0 30%;
+  }
+  #boutique {
+    display: flex;
+    color: black;
+  }
+  /* PANIER VIDE */
+  #head_block {
+    padding: 20px 0;
+  }
+  /* CONTACT */
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+}
