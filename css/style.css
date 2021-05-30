@@ -200,6 +200,10 @@ body {
     padding: 20px 0;
   }
   /* CONTACT */
+  main {
+    display: flex;
+    flex-direction: column;
+  }
 
 
 
