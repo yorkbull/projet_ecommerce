@@ -14,8 +14,17 @@ function showArticle(jsonObj) {
   console.log(article)
   article.map((element)=>{
     let text = document.createElement('p')
+    let model = document.createElement('p')
+    let picture = document.createElement('img')
     text.innerHTML = element.unit_price
+    model.innerHTML = element.name
+    picture.src = "../"+element.img_src
+    // picture.querySelector('article').appendChild(picture)
+    document.querySelector('article').appendChild(picture)
+    document.querySelector('article').appendChild(model)
     document.querySelector('article').appendChild(text)
+
+
  })
 }
 

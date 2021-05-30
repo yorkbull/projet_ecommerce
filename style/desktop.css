@@ -319,6 +319,17 @@ main, header, footer{
   display: flex;
   display: -webkit-flex;
 }
+/*--page boutique--*/
+.boutique_content{
+  width: 100%;
+}
+.picture{
+  display: flex;
+  display: -webkit-flex;
+  display: inline-block;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 footer{
   background-color: #473DC2;
   display: flex;
